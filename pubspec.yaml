@@ -1,0 +1,39 @@
+name: generatoare
+description: A new Flutter project.
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  json_annotation: ^4.8.1
+
+
+
+  cupertino_icons: ^1.0.5
+  http: ^0.13.6
+
+  freezed_annotation: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  freezed: ^2.3.3
+
+
+  flutter_lints: ^2.0.1
+  build_runner: ^2.3.3
+  json_serializable: ^6.6.2
+
+
+flutter:
+
+
+  uses-material-design: true
